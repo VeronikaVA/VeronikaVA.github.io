@@ -5,16 +5,17 @@
 
 body{
 	background-color:#f9f9f9;
-	font-family: Myriad Pro;
+	font-family: sans-serif;
 }
 
-.box{
+.container{
 	padding: 50px 45px;
 	width: 1060px;
 	background-color: white;
 	height: 100%;
 	position: relative;
 	margin:0 auto;
+	box-shadow: 0 0 5px rgba(0,0,0,1);
 }
 
 .head_menu{
@@ -54,9 +55,14 @@ body{
 	float: left;
 }
 
+.body_box ul:first-child{
+	border-top: 1px solid lightgrey;
+}
+
 .body_box ul li{
 	list-style-type: none;
 	border: 1px solid lightgrey;
+	border-top: 0;
 	width: 240px;
 }
 
