@@ -28,7 +28,6 @@ body{
 .head_menu ul li{
 	float: left;
 	position: relative;
-	margin-right: 30px;
 	list-style-type: none;
 }
 
