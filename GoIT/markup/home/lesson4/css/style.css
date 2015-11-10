@@ -6,7 +6,6 @@
 body{
 	background-image: url(../img/background.jpg);
 	font-family: Tahoma;
-
 }
 
 .wrapper{
@@ -17,7 +16,9 @@ body{
 	box-shadow: 0 0 15px rgba(0,0,0,1);
 }
 
-			/*HEADER*/
+
+/*HEADER*/
+
 
 .logo{
 	float: left;
@@ -70,7 +71,6 @@ body{
 	border-bottom: 1px solid black;
 	box-shadow: 0 6px 4px -4px #404040;
 	position: relative;
-
 }
 
 .menu ul{
@@ -208,9 +208,10 @@ li:hover .dropdown3{
 }
 
 .central_content{
-	width: 580px;
-	margin-left: 210px;
-	margin-right: 210px;
+	 float: left;
+	 position: relative;
+	 width: 54%;
+	 margin: 0 22px;
 }
 
 .news{
@@ -221,7 +222,9 @@ li:hover .dropdown3{
 	margin-right: 23px;
 }
 
+
 /*FOOTER*/
+
 
 footer{
 	text-align: center;
