@@ -111,6 +111,7 @@ body{
 	background: #303030;
 	display: none;
 	box-shadow: 0 2px 4px 2px #404040;
+	z-index: 1;
 }
 
 .dropdown3{
@@ -119,6 +120,7 @@ body{
 	background: #303030;
 	display: none;
 	box-shadow: 0 2px 4px 2px #404040;
+	z-index: 1;
 }
 
 .dropdown1 li{
@@ -151,19 +153,25 @@ body{
 li:hover .dropdown1{
 	display: block;
 	left:-11px;
-    top: 24px;
+    top: 23px;
+    z-index: 1;
+    border-top: 1px solid;
 }
 
 li:hover .dropdown2{
 	display: block;
 	left: -11px;
-    top: 24px;
+    top: 23px;
+    z-index: 1;
+    border-top: 1px solid;
 }
 
 li:hover .dropdown3{
 	display: block;
 	left: -11px;
-	top: 24px;
+	top: 23px;
+	z-index: 1;
+    border-top: 1px solid;
 }
 
 .dropdown1 a:hover{
